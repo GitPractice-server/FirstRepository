@@ -20,6 +20,6 @@
             update category_ set name=#{name} where id=#{id}   
         </update>
         <select id="listCategory" resultType="Category">
-            select * from   category_     
+            select * from   category_    ** 
         </select>    
     </mapper>
