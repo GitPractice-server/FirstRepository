@@ -63,6 +63,7 @@ public class RestfulClient {
 	        }
 	        
 				httpResponse = httpclient.execute(httpPost);
+				System.out.println(httpResponse);
 			 
 		 }
 		 
